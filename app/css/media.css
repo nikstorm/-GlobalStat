@@ -1,0 +1,234 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+	.header{
+		/*height: 950px;*/
+		height: 100%;	
+	}
+	.header p{
+		text-align: justify;
+	}
+	iframe{
+		margin-left: -50px;
+	}
+	h2{
+		margin-left: 45px;
+	}	
+}
+@media only screen and (max-width : 1200px){
+	.header{
+		height: 100%;
+	}
+	.header p{
+		text-align: justify;
+	}
+	.center button{
+		margin-left: 50%;
+		margin-top: 50px;
+	}
+
+} 
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.header{
+		/*color: #f00;*/
+		text-align: center;
+		height: 100%;
+		
+	}
+	.header h2{
+		margin-top: 20px;
+		
+	}
+	.header p{
+		text-align: justify;
+	}
+	.header .info{
+		margin-left: 30%;
+		width: 400px;
+		text-align: left;
+	}
+	.center button{
+		margin-left: 26%;
+		margin-top: 50px;
+	}
+	iframe{
+		margin-left: -50px;
+	}
+	footer button{
+		margin-left: 40%;
+		margin-bottom: 50px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header{
+		/*color: #f00;*/
+		text-align: center;
+		height: 100%;
+		
+	}
+	.header h2{
+		margin-top: 20px;
+	}
+	.header p{
+		text-align: justify;
+	}
+	.section .goodies ul{
+		margin-left: -20px;
+	}
+	iframe{
+		margin-left: 140px;
+	}
+	.center button{
+		margin-left: 26%;
+		
+}
+@media only screen and (max-width : 699px){
+	.header{
+		height: 100%;
+	}
+	iframe{
+		margin-left: 100px;
+	}	
+}
+@media only screen and (max-width : 640px){
+	.header{
+		height: 100%;
+	}
+	iframe{
+		margin-left: 90px;
+	}	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.header{
+		color: #fff;
+		text-align: center;
+		height: 100%;
+		background-size: cover;
+		width: 480px;
+		
+	}
+	.header h2{
+		margin-top: 20px;
+	}
+	.header p{
+		text-align: justify;
+	}
+	.text{
+		/* margin-top: 100px; */
+		margin-left: 10px;
+		width: 450px; 
+	}
+	.section{
+		margin-left: -20px;
+		width: 450px;
+	}
+	.section h1{
+		text-align: center;
+		margin-left: 40px;
+	}
+	.section .goodies ul{
+		margin-left: -10px;
+	}
+	iframe{
+		margin-left: 15px;
+	}
+	footer{
+	height: 300px;
+}
+	.who ul{
+		padding-left: 0;
+		margin-left: 0;
+		width: 100px;
+	}
+	.who ul li{
+		margin-left: -50px;
+		width: 350px;
+		padding-left: 0;
+	}
+	.header .info{
+		margin-left: 10%;
+		width: 400px;
+		text-align: left;
+	}
+	.center button{
+		margin-left: 15%;
+	}
+	
+	.modal-content{
+		margin-left: -13px;
+	}	
+	.modal-content img{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		width: 200%;
+	}
+	.modal-content img.result{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		width: 200%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.header{
+		width: 320px;
+		height: 100%;
+	}
+	.header h2{
+		width: 280px;
+	}
+	.header h3{
+		width: 280px;
+		text-align: justify;
+		margin-left: -5px;
+	}
+	.header p{
+		width: 280px;
+		text-align: justify;
+		margin-left: -5px;
+	}
+	.header h3:nth-of-type(2n){
+		text-align: center;
+		font-weight: bold;
+	}
+	.center button{
+		margin-left: -2.5%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}

@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/server-smtp.ru/webstat"
+AuthUserFile /var/www/server-smtp/data/etc/2520100.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
